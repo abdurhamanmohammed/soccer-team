@@ -6,6 +6,9 @@
     list-style: none;
     text-decoration: none;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #ffffff ;
@@ -22,6 +25,13 @@ body{
    background: #fafafa98;
    box-shadow: 1px 10px 15px rgba(0, 0, 0, 0.5);
    border-radius: 6px;
+}
+.tex{
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline;
+    margin: 30px;
+    color: #141c3a;
 }
 .header h1{
     color: #141c3a ;
@@ -247,6 +257,10 @@ body{
         font-weight: normal;
         font-size: 14px;
        
+    }
+    .tex{
+     font-size: 30px;
+        
     }
     .col-4 p{
         
